@@ -50,7 +50,9 @@ io.on("connection" , function(socket){
 //     //response => client to server and respond=>server to client
 //     res.send("Hello")
 // });
+
+let port = process.env.PORT || 3000;
 //5. start server
-server.listen(5500, () => {
+server.listen(port, () => {
     console.log(`Server started @ 5500!`)
 });

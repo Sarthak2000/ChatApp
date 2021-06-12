@@ -11,7 +11,6 @@
 }
 
 .container {
-    /* background: purple; */
     min-height: 100vh;
     min-width: 100vw;
     height: 100vh;
@@ -20,17 +19,14 @@
 
 
 .me {
-    /* background: red; */
     height: 15%;
     width: 100%;
     padding: 6px;
 }
 
 .user {
-    /* background: green; */
     height: 13%;
     width: 100%;
-    /* margin-top: 6px; */
     border: 1px solid white;
     padding: 3px;
     justify-content: space-between;
